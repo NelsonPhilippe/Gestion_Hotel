@@ -21,10 +21,17 @@ public enum Options {
         this.desc = desc;
     }
 
+    /**
+     * Liste de categories dans la quelle se trouvera l'option.
+     * @return tableau de categories
+     */
     public int[] getCategories(){
         return this.cat;
     }
 
+    /**
+     * @return Description de l'option
+     */
     public String getDescription(){
         return this.desc;
     }

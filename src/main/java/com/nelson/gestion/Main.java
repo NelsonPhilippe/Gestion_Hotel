@@ -79,6 +79,10 @@ public class Main {
 
     }
 
+    /**
+     * Permet d'qfficher lq description de chaque chambre disponible
+     * @param capacity Capacite de personne dans une chambre
+     */
     public static void getDescOfRoom(int capacity){
         for (Room room : rooms){
             if(room.getPrice() != 0){
@@ -99,6 +103,9 @@ public class Main {
         }
     }
 
+    /**
+     * Initialisation des chambres dans une liste.
+     */
     public static void init_local_db(){
         int[] price_per_people_1 = {100, 120, 130, 150};
         int[] price_per_people_2 = {130, 160, 170, 190};
